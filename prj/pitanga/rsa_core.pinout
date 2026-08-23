@@ -1,0 +1,24 @@
+// (c) 2025 inPlace Design Automation
+// PORTA VLOG=   COMPONENTE DA PLACA
+
+// ENTRADAS
+    // Sinais de Controle
+    core_clk     = clk_3hz;
+    core_clk_o   = segd3.d_on;
+    core_rst     = sw7;
+    core_load    = sw6;
+
+    // Operandos A e B
+    core_din[3] = sw3;
+    core_din[2] = sw2;
+    core_din[1] = sw1;
+    core_din[0] = sw0;
+
+    core_dout[3] = led3;
+    core_dout[2] = led2;
+    core_dout[1] = led1;
+    core_dout[0] = led0;
+
+// SAÍDAS
+    core_done= led7;
+    core_err = led6;
