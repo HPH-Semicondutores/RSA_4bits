@@ -1,4 +1,3 @@
-`timescale 1ns / 1ps
 
 // Consolidated Verilog source
 // Top module: rsa_core
